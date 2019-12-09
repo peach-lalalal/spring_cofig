@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloudprovider" />
+        <module name="springcloudEureka" />
+        <module name="springcloudadminserver" />
+        <module name="springcloudfeign" />
+        <module name="hystrixDashboard" />
+        <module name="spirngcloudribbonclient" />
+        <module name="springcloudturbine" />
+        <module name="springcloudzuul" />
+        <module name="zipkintest" />
+        <module name="springcloudcofig" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hystrixDashboard" options="-parameters" />
+      <module name="spirngcloudribbonclient" options="-parameters" />
+      <module name="springcloudEureka" options="-parameters" />
+      <module name="springcloudadminserver" options="-parameters" />
+      <module name="springcloudcofig" options="-parameters" />
+      <module name="springcloudfeign" options="-parameters" />
+      <module name="springcloudprovider" options="-parameters" />
+      <module name="springcloudturbine" options="-parameters" />
+      <module name="springcloudzuul" options="-parameters" />
+      <module name="zipkintest" options="-parameters" />
+    </option>
+  </component>
+</project>

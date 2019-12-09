@@ -1,0 +1,7 @@
+server:
+  port: 9020
+spring:
+  cloud:
+    config:
+      server:
+        default-application-name: config-service
